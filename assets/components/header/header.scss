@@ -1,0 +1,81 @@
+header{
+    .header-global{
+        border-bottom:none;
+        padding-top: 1rem;
+        border-top:0.25rem solid #990000;
+        padding-bottom:1rem;
+        background-position: relative;
+
+        .container-wrapper{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            position: relative;
+
+        
+            .logo-link{
+                display: inline-flex;
+                align-items: center;
+                text-decoration: none;
+                color: #333333;
+                flex-shrink: 0;
+
+                .logo{
+                    display: flex;
+                    background-color:#990000;
+                    color:#ffffff;
+                    align-items: center;
+                    flex-shrink: 0;
+                    justify-content: center;
+                    width: 1.75rem;
+                    height: 2.125rem;
+                
+                    @media (min-width: 768px) {
+                        width: 2.25rem;
+                        height: 2.75rem;
+                    }
+
+                    .logo_image{
+                        flex-grow: 1;
+                        width: 1.1875rem;
+                        height: 1.4375rem;
+                        @media (min-width: 768px){
+                            width: 1.5rem;
+                            height: 1.875rem;
+                        }
+                    }
+                }
+
+                .logo-body{
+                    margin-left: 0.5rem;
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 1rem;
+                    .title{
+                        font-size: 0.875rem;
+                        text-transform: uppercase;
+                        line-height: 1.1;
+                        font-weight: 700;
+
+                        @media (min-width: 768px){
+                            font-size: 1.25rem;
+                        }
+                    }
+
+                    .logo-subtitle{
+                        text-transform: uppercase;
+                        line-height: 1.1;
+                        font-size: 0.75rem;
+
+
+                        @media (min-width: 768px){
+                            font-size: 0.875rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}
