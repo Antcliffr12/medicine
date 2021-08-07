@@ -1,10 +1,15 @@
 header{
     .header-global{
-        border-bottom:none;
+        border-bottom: 1px solid #eaeaea;   
         padding-top: 1rem;
         border-top:0.25rem solid #990000;
         padding-bottom:1rem;
-        background-position: relative;
+        position: relative;
+
+        @media (min-width: 768px){
+            border-bottom:none;
+            padding-top:1rem;
+        }
 
         .container-wrapper{
             display: flex;

@@ -36,7 +36,7 @@
     <form role="search" data-url="/search">
         <div class="input-group">
             <input type="text" class="form-control" id="search-navigation" placeholder="Search">
-            <button class="btn btn-primary" id="search-navigation-button">Search</button>
+            <button class="button-primary button-search" id="search-navigation-button">Search</button>
         </div>
     </form>
 </div>

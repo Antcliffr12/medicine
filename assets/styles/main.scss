@@ -1,0 +1,16 @@
+.button-primary{
+    background-color: #006298;
+    border: .125rem solid #006298;
+    border-radius: .25rem;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: none;
+    position: relative;
+    height: 2.5rem;
+    padding: 0 .75rem;
+    display: inline-flex;
+    align-items: center;
+    transition: box-shadow .2s ease;
+}
