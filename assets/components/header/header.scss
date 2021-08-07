@@ -12,12 +12,14 @@ header{
         }
 
         .container-wrapper{
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
             position: relative;
 
-        
+            @media (min-width:992px){
+                display: flex;
+                align-items: center;
+                position: relative;
+                flex-wrap: wrap;
+            }
             .logo-link{
                 display: inline-flex;
                 align-items: center;

@@ -8,7 +8,8 @@ class WalkerMainMenu extends Walker_Nav_Menu
         $indent = ($depth > 0 ? str_repeat("\t", $depth) : '');
         $display_depth = ($depth + 1);
         $classes = array(
-            'menu_list__child-menu'
+            'menu_list__child-menu',
+            'menu_list'
         );
 
         $class_names = implode(' ', $classes);

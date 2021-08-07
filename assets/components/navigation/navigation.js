@@ -71,8 +71,20 @@ jQuery('document').ready(function ($) {
         $('#search-box').attr('aria-hidden', function (i, val) {
             return val == "true" ? false : true;
         })
+    })
 
-  
+    
+    //menu toggle mobile
+      var toggled = false;
+    $('.menu-toggle').on('click', function () {
+        toggled = !toggled;
+        $(this).attr('aria-expanded', toggled ? true : false)
+        if (toggled == true) {
+           $('.nav-menu').addClass('d-block');
+        } else {
+            $('.nav-menu').removeClass('d-block');
+        }
+        
     })
 
       

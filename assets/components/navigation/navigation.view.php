@@ -20,9 +20,6 @@
         'depth' => 2
 
     );
-
-
-
     echo wp_nav_menu($navBar);
     ?>
 </nav>
