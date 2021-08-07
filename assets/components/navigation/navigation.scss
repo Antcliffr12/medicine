@@ -98,6 +98,7 @@
                 @media (min-width:992px){
                         padding: 0;
                         text-indent: 0 !important;
+                        
                 }
 
                 &:hover{
@@ -160,6 +161,39 @@
                     &:last-child{
                         border-right: none;
                     }
+
+                    @media (min-width:992px){
+                        background-color: transparent;
+                    }
+
+                    .menu_link{
+                        @media (min-width:992px){
+                            padding: 0.5rem 1rem;
+                            text-decoration: none;
+                            color: #333333;
+                            display: block;
+
+                            &:hover{
+                                background-color: #006298;
+                                color: #ffffff;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+
+                @media (min-width:992px){
+                    position: absolute;
+                    top: 2.5rem;
+                    left: 0;
+                    width: 16rem;
+                    margin: 0;
+                    padding: 0.5rem 0;
+                    -webkit-box-shadow: 0 1px 3px 2px rgb(0 0 0 / 7%);
+                    box-shadow: 0 1px 3px 2px rgb(0 0 0 / 7%);
+                    background-color: #ffffff;
+                    z-index: 999;
+                    
                 }
             }
         }
